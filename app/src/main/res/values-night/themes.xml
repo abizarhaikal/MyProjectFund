@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyProjectFund" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#cfbcff</item>
+        <item name="colorPrimaryVariant">#432b7e</item>
+        <item name="colorOnPrimary">#381e72</item>
+        <item name="colorPrimaryContainer">#4f378a</item>
+        <item name="colorOnPrimaryContainer">#e9ddff</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#cbc2db</item>
+        <item name="colorSecondaryVariant">#1e192b</item>
+        <item name="colorOnSecondary">#332d41</item>
+        <item name="colorSecondaryContainer">#4a4458</item>
+        <item name="colorOnSecondaryContainer">#e8def8</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

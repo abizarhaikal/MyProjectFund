@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyProjectFund" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#6750a4</item>
+        <item name="colorPrimaryVariant">#432b7e</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorPrimaryContainer">#6750a4</item>
+        <item name="colorOnPrimaryContainer">#22005d</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#625b71</item>
+        <item name="colorSecondaryVariant">#3e384c</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="colorSecondaryContainer">#e8def8</item>
+        <item name="colorOnSecondaryContainer">#1e192b</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.MyProjectFund" parent="Base.Theme.MyProjectFund" />
+</resources>
