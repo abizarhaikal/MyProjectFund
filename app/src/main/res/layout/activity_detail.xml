@@ -150,5 +150,14 @@ xmlns:tools="http://schemas.android.com/tools"
         app:layout_constraintTop_toBottomOf="@+id/tabs"
         app:layout_constraintVertical_bias="0.0" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_love" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

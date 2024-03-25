@@ -33,7 +33,7 @@ class DetailViewModel : ViewModel() {
                 if (response.isSuccessful){
                     _name.value = response.body()
                 } else {
-                    Log.e(TAG, "OnFailure : ${response.message()}")
+                    Log.d(TAG, "OnSuccess : ${response.message()}")
                 }
             }
 
@@ -45,7 +45,5 @@ class DetailViewModel : ViewModel() {
 
     }
 
-    private fun getDetail() {
-        val client = ApiConfig.getApiService()
-    }
+
 }
